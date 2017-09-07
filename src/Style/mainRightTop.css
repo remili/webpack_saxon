@@ -1,0 +1,26 @@
+@import "app.css";
+
+.MainRightTop {
+  height: 60px;
+  background: #fff;
+  color: #918C8C;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.1);
+  
+  & header {
+    padding-left:280px;
+    line-height: 60px;
+    float: left;
+    font-size: 1.2em;
+  }
+  
+  & nav {
+    float: right;
+    
+    & a {
+      padding: 0 10px;
+      line-height: 60px;
+    }
+  }
+}

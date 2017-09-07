@@ -1,0 +1,704 @@
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.Login {
+  height: var(--full-height);
+  width: var(--full-width);
+  padding-top: 15%
+}
+.Login .loginBox {
+  margin: 0 auto;
+  width: 250px;
+  padding: 50px 20px;
+  background: rgba(145, 140, 140, .1);
+  -webkit-box-shadow: 1px 1px 5px #ddd;
+          box-shadow: 1px 1px 5px #ddd;
+}
+.Login .log {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 500;
+}
+.Login .inputBox {
+  position: relative;
+  margin-bottom: 20px;
+}
+.Login .inputBox label {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: #fff;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+.Login .inputBox input {
+  width: 93%;
+  margin-top: 10px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding:0 9px;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  color: #fff;
+}
+.Login .inputBox input:focus {
+  border-bottom: 1px solid #fff;
+}
+.Login .inputBox input:focus ~ label {
+  color: #ccc;
+  top: 0;
+  font-size: 14px;
+}
+.Login button {
+  margin-top: 10px;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+}
+.Login button:hover {
+  border: 1px solid #fff;
+}
+.Login .box {
+  margin-top: 10px;
+}
+.Login .box a {
+  color: #fff;
+}
+.Login .box .checkbox {
+  width: auto;
+  height: auto;
+  margin:0 auto;
+}
+.Login .box .left {
+  float: left;
+}
+.Login .box .right {
+  float: right;
+}
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.MainRightTop {
+  height: 60px;
+  background: #fff;
+  color: #918C8C;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
+          box-shadow: 0 1px 0px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1)
+}
+.MainRightTop header {
+  padding-left:280px;
+  line-height: 60px;
+  float: left;
+  font-size: 1.2em;
+}
+.MainRightTop nav {
+  float: right;
+}
+.MainRightTop nav a {
+  padding: 0 10px;
+  line-height: 60px;
+}
+.Home header {
+   font-size: 1.3em;
+}
+
+.Home .top {
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: -webkit-inline-flex;
+   display: inline-flex;
+   width: 100%;
+}
+
+.Home .left {
+   width: 50%;
+}
+
+.Home .right {
+   width: 40%;
+   margin-left: 5%;
+}
+
+.Home .box {
+   background: #eee;
+   border-radius: 5px;
+}
+
+.Home .box .title {
+   border-bottom: 2px solid #ccc;
+   padding: 10px 20px;
+}
+
+.Home .box .comment {
+   padding: 20px 20px;
+}
+
+.Home .box button {
+   width: 25%;
+   margin: 20px auto;
+   display: block;
+   border: 1px solid #000;
+   background: 0;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.Home .right ul {
+   padding: 0;
+}
+
+.Home .right .message {
+   text-align: center;
+   padding: 20px 0;
+   background: #fff;
+   border-radius: 5px;
+}
+
+.Home .right ul li {
+   list-style: none;
+   padding: 25px 0;
+}
+
+.Home .right ul li:last-child {
+   float: right;
+}
+
+.Home .right .textLeft {
+   float: left;
+   width: 70%;
+}
+
+.Home .right .textRight {
+   float: right;
+}
+
+.Home .box .list {
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: -webkit-inline-flex;
+   display: inline-flex;
+}
+
+.Home .box .text {
+   padding: 0 30px;
+}
+.List header{
+  font-size: 1.5em;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.List ul{
+  padding:0;
+}
+
+.List ul li{
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.List ul li .left{
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  max-width: 80%;
+  max-height: 40px;
+  overflow: hidden;
+  text-align: justify;
+  position: relative;
+}
+
+.List ul li .left:after{
+  content: '...';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  background: #fff;
+  padding-left:5px;
+}
+
+.List ul li .right{
+  float: right;
+  width: 100px;
+}
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.fromInfo {
+  text-align: center  
+}
+.fromInfo .item {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.fromInfo .item label {
+  color: var(--text-color);
+  width: 80px;
+  padding-right: 15px;
+  text-align: right;
+}
+.fromInfo .item input {
+  width: 80%;
+  height: 40px;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  color: var(--text-color);
+}
+.fromInfo .item input:focus {
+  border-bottom: 1px solid var(--text-color);
+}
+.fromInfo button {
+  margin-top: 10px;
+  font-size: 16px;
+  width: 80%;
+  background: var(--text-color);
+  color: #fff;
+  border: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+}.My .add{
+  background: #eee;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 1.2em;
+}
+
+.My ul li{
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 25%;
+  margin: 15px 0;
+}
+
+.My ul li .right{
+  margin-left: 10px;
+}
+
+.My ul li .right .title{
+  font-size: 1.1em;
+}
+
+.My ul li .right .date{
+  font-size: 0.8em;;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.My ul li .right button{
+  background: #eee;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.Ios{
+  
+}
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.Search .table {
+
+    list-style: none;
+
+    padding: 0;
+}
+.Search .table li {
+
+    color: #fff;
+
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: -webkit-flex;
+
+    display: flex;
+
+    background: #c1bcbc;
+
+    font-weight: 500;
+
+    border-bottom: 1px solid #eee;
+}
+.Search .table li span {
+
+    text-align: center;
+
+    -webkit-box-flex: 1;
+
+    -ms-flex: 1;
+
+    flex: 1;
+
+    border-right: 1px solid #eee;
+
+    padding: 5px 0;
+
+    font-size: 16px;
+}
+.Search .table li span a {
+
+    color: #22a545;
+}
+.Search .table li:first-child {
+
+    background: #918C8C;
+}
+.Search .table li:not(:first-child):hover {
+
+    background: #c1bcbc;
+}
+.Search .page {
+
+    text-align: right;
+}
+
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.Main {
+  height: 100%;
+  width:100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.MainRight {
+  width: 100%;
+}
+.MainRightBottom {
+  height: 100%;
+  min-height: 800px;
+  padding:90px 20px 0 270px;
+  background: #f0f3f4;
+}
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}
+.MainLeft {
+  background: #fff;
+  width:250px;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(239, 235, 235, .16), 0 2px 10px 0 rgba(72, 70, 70, .12);
+          box-shadow: 0 2px 5px 0 rgba(239, 235, 235, .16), 0 2px 10px 0 rgba(72, 70, 70, .12)  
+}
+.MainLeft header {
+  font-size: 4em;
+  font-weight: 500;
+  background: #fff;
+  padding:10px 0;
+  text-align: center;
+  border-bottom:2px solid var(--text-color);
+}
+.MainLeft ul {
+  list-style: none;
+  padding-left: 0;
+}
+.MainLeft ul li a {
+  display: block;
+  padding: 10px 15px;
+}
+.MainLeft ul li a:hover {
+  background: var(--text-color);
+  color: #fff;
+}
+.MainLeft ul li a.selected {
+  background: var(--text-color);
+  color: #fff;
+}/*
+这是公共css
+*/
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width: 100%;
+  color: #918C8C;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+html a, body a {
+  color: #918C8C;
+  text-decoration: none;
+}
+
+html,body {
+
+  & input,select,button {
+    outline: none;
+  }
+}
+
+html button:active, body button:active {
+  background: rgba(0, 0, 0, .6);
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  background: url(06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .2);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .2);
+}

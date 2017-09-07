@@ -1,0 +1,35 @@
+.My .add{
+  background: #eee;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 1.2em;
+}
+
+.My ul li{
+  list-style: none;
+  display: inline-flex;
+  width: 25%;
+  margin: 15px 0;
+}
+
+.My ul li .right{
+  margin-left: 10px;
+}
+
+.My ul li .right .title{
+  font-size: 1.1em;
+}
+
+.My ul li .right .date{
+  font-size: 0.8em;;
+  color: #ccc;
+  margin: 5px 0;
+}
+
+.My ul li .right button{
+  background: #eee;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}

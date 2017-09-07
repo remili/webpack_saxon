@@ -1,0 +1,43 @@
+/*
+这是公共css
+*/
+:root {
+  --full-height: 100%;
+  --full-width: 100%;
+  --text-color: #918C8C;
+  --conment-background: #f0f3f4;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height:var(--full-height);
+  width: var(--full-width);
+  color: var(--text-color);
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  & a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  & input,select,button {
+    outline: none;
+  }
+  
+  & button:active {
+    background: rgba(0,0,0,0.6);
+  }
+}
+
+#app {
+  height: var(--full-height);
+  width: var(--full-width);
+  background: url(../Images/06.jpg) no-repeat center fixed;  
+  background-size: cover;
+}
+
+.bgBox {
+  background: #fff;
+  padding: 20px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.2);
+}

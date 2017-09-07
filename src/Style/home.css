@@ -1,0 +1,78 @@
+.Home header {
+   font-size: 1.3em;
+}
+
+.Home .top {
+   display: inline-flex;
+   width: 100%;
+}
+
+.Home .left {
+   width: 50%;
+}
+
+.Home .right {
+   width: 40%;
+   margin-left: 5%;
+}
+
+.Home .box {
+   background: #eee;
+   border-radius: 5px;
+}
+
+.Home .box .title {
+   border-bottom: 2px solid #ccc;
+   padding: 10px 20px;
+}
+
+.Home .box .comment {
+   padding: 20px 20px;
+}
+
+.Home .box button {
+   width: 25%;
+   margin: 20px auto;
+   display: block;
+   border: 1px solid #000;
+   background: 0;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.Home .right ul {
+   padding: 0;
+}
+
+.Home .right .message {
+   text-align: center;
+   padding: 20px 0;
+   background: #fff;
+   border-radius: 5px;
+}
+
+.Home .right ul li {
+   list-style: none;
+   padding: 25px 0;
+}
+
+.Home .right ul li:last-child {
+   float: right;
+}
+
+.Home .right .textLeft {
+   float: left;
+   width: 70%;
+}
+
+.Home .right .textRight {
+   float: right;
+}
+
+.Home .box .list {
+   display: inline-flex;
+}
+
+.Home .box .text {
+   padding: 0 30px;
+}

@@ -1,0 +1,42 @@
+@import "app.css";
+
+.Search {
+  & .table {
+    list-style: none;
+    padding: 0;
+    
+    & li {
+      color: #fff;
+      width: 100%;
+      display: flex;
+      background: #c1bcbc;
+      font-weight: 500;
+      border-bottom: 1px solid #eee;
+      
+      & span {
+        text-align: center;
+        flex: 1;
+        border-right: 1px solid #eee;
+        padding: 5px 0;
+        font-size: 16px;
+        
+        & a {
+          color: #22a545;
+        }
+      }
+    } 
+    
+    & li:first-child {
+      background: #918C8C;
+    }
+    
+    & li:not(:first-child):hover {
+      background: #c1bcbc;
+    } 
+  }
+  
+  & .page {
+    text-align: right;  
+  } 
+}
+
